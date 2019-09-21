@@ -12,17 +12,22 @@ int main(){
     cout << "enter the number for your selection: "<< flush;
     int value;
     cin >> value;
-    if (value < 3) {
-        cout <<"sorry the election is not allowed for you"<< endl;
+    if (value==1){
+        cout<<"adding new records..."<<endl;
     }
-    else {
-        cout<<"welcome to the database"<<endl;
+    else if (value==2){
+        cout<<"deleting records..."<<endl;
     }
-
-    if (value==5){
-        cout<<"quiting the program "<<endl;
+    else if (value==3){
+        cout<<"viewing records..."<<endl;
     }
-    else {
-        cout<<"program is still working "<<endl;
+    else if (value==4){
+        cout<<"searching records..."<<endl;
+    }
+    else if (value==5){
+        cout<<"quiting database..."<<endl;
+    }
+    else{
+        cout<<"invalid number entered :( "<<endl;
     }
 }
