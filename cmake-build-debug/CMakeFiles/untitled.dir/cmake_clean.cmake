@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/main.cpp.obj"
+  "CMakeFiles/untitled.dir/dowhileloop.cpp.obj"
   "untitled.pdb"
   "untitled.exe"
   "untitled.exe.manifest"

@@ -122,6 +122,33 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+dowhileloop.obj: dowhileloop.cpp.obj
+
+.PHONY : dowhileloop.obj
+
+# target to build an object file
+dowhileloop.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/dowhileloop.cpp.obj
+.PHONY : dowhileloop.cpp.obj
+
+dowhileloop.i: dowhileloop.cpp.i
+
+.PHONY : dowhileloop.i
+
+# target to preprocess a source file
+dowhileloop.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/dowhileloop.cpp.i
+.PHONY : dowhileloop.cpp.i
+
+dowhileloop.s: dowhileloop.cpp.s
+
+.PHONY : dowhileloop.s
+
+# target to generate assembly for a file
+dowhileloop.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/dowhileloop.cpp.s
+.PHONY : dowhileloop.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... untitled
 	@echo ... rebuild_cache
+	@echo ... dowhileloop.obj
+	@echo ... dowhileloop.i
+	@echo ... dowhileloop.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
